@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #282d30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+  }
+  
+  form {
+    
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+    color:black;
+  }
+  
+  input,
+  select,
+  textarea {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Set background color to white */
+  }
+
+  label{
+    color: #08567a;
+    font-weight: 550;
+    
+  }
+  
+  select {
+    appearance: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #4093b9;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  input[type="reset"]:hover {
+    background-color: #c92929;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (min-width: 600px) {
+    form {
+      width: 400px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    form {
+      width: 500px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    form {
+      width: 650px;
+    }
+  }
+  
